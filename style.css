@@ -23,11 +23,12 @@ h1{
 .relative{
     position: relative;
     display: inline-block;
+    overflow: hidden;
     height: 420px;
 }
 .relative:last-of-type{
     position: absolute;
-    right: 0px;
+    right: -230px;
     height: 420px;
 }
 #first_div{
